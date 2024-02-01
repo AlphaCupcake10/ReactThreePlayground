@@ -13,7 +13,8 @@ export default function App() {
           {/* <rectAreaLight width={2.5} height={1.65} intensity={32} color={'#234da8'} rotation={[0.1,Math.PI,0]} position={[0,0.55,-1.15]}/> */}
           <primitive object={laptop.scene} scale={1.2} position-y={-1.2}>
             <Html position={[0,1.56,-1.4] } scale={1/1.5} rotation-x={-.256} transform wrapperClass="htmlScreen" distanceFactor={1.17}>
-              <iframe src="https://alphacupcake10.github.io/Portfolio/"></iframe>
+              <iframe src="https://alphacupcake10.vercel.app/"></iframe>
+              {/* <iframe src="https://alphacupcake10.github.io/Portfolio/"></iframe> */}
             </Html>
           </primitive>
         </Float>
